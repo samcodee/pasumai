@@ -54,7 +54,8 @@ The clicked image by the phone and the video in the PiCamera in the dustbin is s
 
 Currently, validation is not done at the dustbin using the camera. However, a basic version of that, using a custom trained model is implemented: 
 
-[Video]
+https://github.com/user-attachments/assets/ea7cb482-adba-4eee-99ba-fcdec0171af0
+
 
 ## Automatic control of Dustbin Lid
 Although not the best implementation, it is possible to automatically open and close the dustbin lid.
