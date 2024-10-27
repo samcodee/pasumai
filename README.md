@@ -14,19 +14,21 @@ This code is not production ready and hence cannot be distributed. Hence, additi
 
 \* - Optional but may not provide the full experience
 
-## 0. Clone the project locally
+## 0. Clone the project locally and install dependencies using `yarn`
 
 ## 1. Creating an Expo Dev Client
-1. Run `eas build -p android --profile development`. You may be asked to login with your Expo account. Create an account if you don't have one already.
-2. You will get a development client. Install the .APK in your mobile phone.
+1. Modify the API Key in `app.json` in `RNMapboxMapsDownloadToken` to include your Mapbox API Key*.
+2. Run `yarn android` in project root. 
+3. This will create an `android` folder.
+4. You will get a development client. Install the .APK at `android/app/build/outputs/apk/debug/app-debug.apk` in your mobile phone or emulator.
+
+\* - You must create a Mapbox account if you don't have one and also add the API key to `token.key` and in `/components/MapScreen.tsx`
 
 ## 2. Running the React Native App
 1. Run `yarn start`. You must have the Android Studio Tools installed. 
 2. Press `a` to open the app in the emulator or
 scan the QRCode or enter the URL in the app
 3. The app should be open. 
-
-Note: You must create a Mapbox account and add the API key to `token.key` and in `/components/MapScreen.tsx`
 
 ## 3. Running the backend 
 Go to `/backend`

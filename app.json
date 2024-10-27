@@ -57,7 +57,7 @@
       [
         "@rnmapbox/maps",
         {
-          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiZWVlZXBlb2hrIiwiYSI6ImNtMHpqbTAwazA3NnEyeXF5aDA1bTNvcXkifQ.szLM3X80-pqJ5-gWKNf2PA"
+          "RNMapboxMapsDownloadToken": "<mapboxapi key>"
         }
       ],
       "expo-router",
