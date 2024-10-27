@@ -62,7 +62,7 @@ https://github.com/user-attachments/assets/ea7cb482-adba-4eee-99ba-fcdec0171af0
 ## Automatic control of Dustbin Lid
 Although not the best implementation, it is possible to automatically open and close the dustbin lid.
 
-Requirements: (A lot of these are unnecessary, but this is what I used.)
+Requirements: (A lot of this is overcomplicated, because I was using a display HAT.)
 - A servo
 - PCA9685
 - Jumper wires
@@ -70,8 +70,29 @@ Requirements: (A lot of these are unnecessary, but this is what I used.)
 
 Add the code in `arduino/withanalog.ino` to the Arduino.
 
-Connect the wiring as shown:
+Connect the wiring as follows:
 
-[Wiring image]
+Connect an external power supply to the PCA9685 using the terminal blocks. I used 2*18650 batteries.
+Connect a servo (I used SG90) to the PCA9685.
+
+Follow wiring as follows
+
+| PCA9685 | Arduino |
+| -------- | ------- |
+| Ground | Ground near 5v pin |
+| VCC | 5V |
+| SCL | A5 |
+|  SDA | A4 |
+
+| Arduino | RaspberryPi (2B) |
+| -------- | ------- |
+| Ground near 5v pin | pin 39 |
+| A0 | pin 37 |
+
+(You may have to change the `GPIO_PIN` in `Line 16 in backend/piapp.py`)
+
+Use the following pinout (Courtesy of https://www.pi4j.com/1.2/images/j8header-2b.png)
+![RaspberryPi2B Pinout](pinout.png)
+
 
 Everything else should work.
