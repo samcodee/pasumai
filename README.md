@@ -7,8 +7,7 @@ This code is not production ready and hence cannot be distributed. Hence, additi
 
 # How it works
 
-![flowchartres](https://github.com/user-attachments/assets/1fdf5b8b-fcd7-4090-b513-df59c6c1dcbe)
-
+![flowchart thumbnail](https://github.com/user-attachments/assets/4019fe83-3c57-49f3-9222-0cb585be9f76)
 
 # Running the project locally
 
