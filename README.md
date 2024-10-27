@@ -5,6 +5,11 @@ This is a project is made by [@samcodee](https://github.com/samcodee) as a proof
 
 This code is not production ready and hence cannot be distributed. Hence, additional steps are required to get this running.
 
+# How it works
+
+![flowchartres](https://github.com/user-attachments/assets/1fdf5b8b-fcd7-4090-b513-df59c6c1dcbe)
+
+
 # Running the project locally
 
 ## Requirements:
