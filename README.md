@@ -1,7 +1,7 @@
 # Pasumai 🌳 
 Visit the website @ https://pasumai.samcodee.dev
 
-This is a project is made by [@samcodee](https://github.com/samcodee) as a proof of concept for my submission to the IIT Bombay SOF Techfest 2024-25
+This is a project made by [@samcodee](https://github.com/samcodee) as a proof of concept for my submission to the IIT Bombay SOF Techfest 2024-25
 
 This code is not production ready and hence cannot be distributed. Hence, additional steps are required to get this running.
 
