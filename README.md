@@ -1,13 +1,17 @@
 # Pasumai 🌳 
 Visit the website @ https://pasumai.samcodee.dev
 
-This is a project made by [@samcodee](https://github.com/samcodee) as a proof of concept for my submission to the IIT Bombay SOF Techfest 2024-25
+**Visit a hosted version of this app @ https://pasumai-demo.samcodee.dev**
 
-This code is not production ready and hence cannot be distributed. Hence, additional steps are required to get this running.
+This is a project made by me ([@samcodee](https://github.com/samcodee)) as a proof of concept for my submission to the IIT Bombay SOF Techfest 2024-25
+
+This code is not production ready and cannot be distributed. Additional steps are required to get this running.
 
 # How it works
 
 ![flowchart thumbnail](https://github.com/user-attachments/assets/4019fe83-3c57-49f3-9222-0cb585be9f76)
+
+# **Don't want to spend time configuring and running the project locally? There is mock-up online version available: https://pasumai-demo.samcodee.dev**
 
 # Running the project locally
 
