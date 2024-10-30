@@ -78,6 +78,9 @@ Requirements: (A lot of this is overcomplicated, because I was using a display H
 
 Add the code in `arduino/withanalog.ino` to the Arduino.
 
+> [!IMPORTANT]
+> You will have to change the PWM values in the code for your servo to work. Try tweaking till you get the desired result.
+
 Connect the wiring as follows:
 
 Connect an external power supply to the PCA9685 using the terminal blocks. I used 2*18650 batteries.
