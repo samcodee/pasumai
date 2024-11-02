@@ -7,11 +7,17 @@ This is a project made by me ([@samcodee](https://github.com/samcodee)) as a pro
 
 This code is not production ready and cannot be distributed. Additional steps are required to get this running.
 
+-----------------------
+
 # How it works
 
 ![flowchart thumbnail](https://github.com/user-attachments/assets/4019fe83-3c57-49f3-9222-0cb585be9f76)
 
+-----------------------
+
 # **Don't want to spend time configuring and running the project locally? There is mock-up online version available: https://pasumai-demo.samcodee.dev**
+
+-----------------------
 
 # Running the project locally
 
@@ -66,6 +72,7 @@ Currently, validation is not done at the dustbin using the camera. However, a ba
 
 https://github.com/user-attachments/assets/ea7cb482-adba-4eee-99ba-fcdec0171af0
 
+-----------------------
 
 ## Automatic control of Dustbin Lid
 Although not the best implementation, it is possible to automatically open and close the dustbin lid.
