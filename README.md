@@ -3,7 +3,7 @@ Visit the website @ https://pasumai.samcodee.dev
 
 **Visit a hosted version of this app @ https://pasumai-demo.samcodee.dev**
 
-This is a project made by me ([@samcodee](https://github.com/samcodee)) as a proof of concept for my submission to the IIT Bombay SOF Techfest 2024-25
+This is a project made by me ([@samcodee](https://github.com/samcodee)), as an entry to the Yi Thalir Science and Tech Expo (2024-25) and the SOF IITB Techfest Innovation Challenge (2024-25)
 
 This code is not production ready and cannot be distributed. Additional steps are required to get this running.
 
